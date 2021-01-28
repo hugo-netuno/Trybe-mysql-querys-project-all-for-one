@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c79bca6b410adf59f31cced50103768380e2ff092d793a77d8128bfea34aad71
-size 360
+# 10. Mostre todos os dados da tabela `purchase_orders`
+# em ordem decrescente ordenados por `created_by` em que o `created_by`
+# é maior ou igual a 3. E como critério de desempate para a ordenação,
+# ordene também os resultados pelo `id` de forma crescente.
+SELECT * FROM northwind.purchase_orders
+WHERE created_by >= 3 ORDER BY created_by DESC, id ASC;

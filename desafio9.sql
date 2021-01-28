@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e2cb8e1cffbfb024fd3a71a9ec61689e8a22fda56bce11d5625cba9d23529f26
-size 160
+# 9. Mostre todos os valores de `notes` da tabela `purchase_orders`
+# que não são nulos.
+SELECT notes FROM northwind.purchase_orders
+WHERE notes IS NOT NULL;

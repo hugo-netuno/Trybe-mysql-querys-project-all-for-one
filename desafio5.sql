@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4217fec96bcd6bb5ac99ad070087b4c561d8dff80b45d318632af732052eb4f4
-size 243
+# 5. Monte uma query que exiba os dados da tabela `products`
+# a partir do quarto registro até o décimo terceiro,
+# incluindo tanto um quanto o outro. Obs.: não use `where` ou `order by`.
+SELECT * FROM northwind.products LIMIT 10 OFFSET 3;

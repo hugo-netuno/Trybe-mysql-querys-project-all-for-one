@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e755d52ac80ecd4ac19728fc83b74319efbb5b8b206af7f5252a262b82ffaa2a
-size 184
+# 7. Mostre apenas os ids dos 5 últimos registros da tabela `products`
+# (a ordernação deve ser baseada na coluna `id`).
+SELECT id FROM northwind.products
+ORDER BY id DESC LIMIT 5;

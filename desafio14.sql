@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:4ed9913d4dfa0dd4909ec3285e308789aa7d36ade8fac6764a32d1eefd44a0fe
-size 208
+# 14. Mostre os `supplier_id` da `purchase_orders` em que o `supplier_id`
+# seja de 1 a 3, incluindo tanto o 1 quanto o 3.
+SELECT supplier_id FROM northwind.purchase_orders WHERE supplier_id BETWEEN 1 AND 3;

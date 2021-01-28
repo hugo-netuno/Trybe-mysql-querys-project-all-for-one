@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:f113a7e1463490cddebfec606a36117b22657b4ce5d4bd6717fff33ceab6397d
-size 165
+# 13. Mostre o `supplier_id` das `purchase_orders` em que o `supplier_id` seja 1 ou 3.
+SELECT supplier_id FROM northwind.purchase_orders WHERE supplier_id IN (1,3);

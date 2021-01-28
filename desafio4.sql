@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:51ac5d4f67f36ae840384f63e9aed1e030cc461b7e552769c20d80a1f242fb06
-size 122
+# 4. Conte quantos registros existem em `product_name` de `products`.
+SELECT COUNT(product_name) FROM northwind.products;

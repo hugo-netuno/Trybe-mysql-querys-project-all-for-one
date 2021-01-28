@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:860aea9f3cd3f730b89e2a75db7dad44d2566cca5d1bfa43bc884fe08530a6a0
-size 250
+# 16. Exiba a `submitted_date` das `purchase_orders` que estão entre
+# `2006-01-26 00:00:00` e `2006-03-31 23:59:59`.
+SELECT submitted_date FROM northwind.purchase_orders
+WHERE submitted_date BETWEEN '2006-01-26 00:00:00' AND '2006-03-31 23:59:59';

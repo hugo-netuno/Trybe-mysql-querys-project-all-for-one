@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c72954d5204159366947a7c3e1bd0daec713a2cf7e97230f5f95c711428701aa
-size 196
+# 18. Mostre todos os registros de `purchase_orders` que tem o
+# `supplier_id` igual a 3 e `status_id` igual a 2.
+SELECT supplier_id FROM northwind.purchase_orders WHERE supplier_id LIKE 3 AND 2;

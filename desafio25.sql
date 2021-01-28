@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:87c1b632cb7074c52e45adcde97ef071f7d4a3b74abee3211eaa6ff7d6cadc46
-size 164
+# 25. Delete todos os dados em que a `unit_price` da tabela `order_details` seja menor que 10.0000.
+DELETE FROM northwind.order_details WHERE unit_price < 10.0000;

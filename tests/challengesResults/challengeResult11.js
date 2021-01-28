@@ -1,3 +1,9 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e37bef350dcc4a16e9d52abdf8bfbfca9441c3ce0f5e1d9f36f92b4c34c8f1e7
-size 337
+const challengeResult11 = [
+  { notes: 'Purchase generated based on Order #30' },
+  { notes: 'Purchase generated based on Order #33' },
+  { notes: 'Purchase generated based on Order #36' },
+  { notes: 'Purchase generated based on Order #38' },
+  { notes: 'Purchase generated based on Order #39' }
+];
+
+module.exports = challengeResult11;

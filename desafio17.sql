@@ -1,3 +1,3 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:98bacaddce14fd9145a4e619bd5703fa5b72aafd08a16e76b7e09f4675e4182a
-size 229
+# 17. Mostre os registros das colunas `id` e `supplier_id` das
+# `purchase_orders` em que os `supplier_id` sejam tanto 1, ou 3, ou 5, ou 7.
+SELECT id, supplier_id FROM northwind.purchase_orders WHERE supplier_id in (1, 3, 5, 7);

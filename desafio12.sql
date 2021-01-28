@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e88c917436942984a0c3b1c04beea813369cbe2097bb4ad981e829921c002d7f
-size 205
+# 12. Mostre as `submitted_date` de `purchase_orders` em que a `submitted_date` é do dia 26 de abril de 2006.
+SELECT submitted_date FROM northwind.purchase_orders WHERE submitted_date LIKE '2006-04-26%';

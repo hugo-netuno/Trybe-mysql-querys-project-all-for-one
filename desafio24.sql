@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3e63226823248d0e1977766e03321c1236b38d272c3af96b040030e9126db7da
-size 257
+# 24. Atualize os dados de `discount` da tabela `order_details`
+# para 45 cuja `unit_price` seja maior que 10.0000 e
+# o id seja um número entre 30 a 40.
+UPDATE northwind.order_details
+SET discount = 45
+WHERE unit_price > 10.0000 AND id BETWEEN 30 AND 40;

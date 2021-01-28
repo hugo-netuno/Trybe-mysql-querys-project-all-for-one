@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d141ebb0ec71c3c7b7c8c55e91984c7c8363e073418cc52e72d7cde2dbea19ad
-size 465
+const challengeResult17 = [
+  { id: 90, supplier_id: 1 },
+  { id: 96, supplier_id: 1 },
+  { id: 99, supplier_id: 1 },
+  { id: 101, supplier_id: 1 },
+  { id: 102, supplier_id: 1 },
+  { id: 107, supplier_id: 1 },
+  { id: 110, supplier_id: 1 },
+  { id: 111, supplier_id: 1 },
+  { id: 91, supplier_id: 3 },
+  { id: 93, supplier_id: 5 },
+  { id: 105, supplier_id: 5 },
+  { id: 148, supplier_id: 5 },
+  { id: 147, supplier_id: 7 }
+];
+
+module.exports = challengeResult17;
